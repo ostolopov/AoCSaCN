@@ -1,5 +1,5 @@
-Execution time: 676 ms
-Program size: 10965 bytes
+Execution time: 63083 ms
+Program size: 11125 bytes
 Lines of code: 353
-Characters in code: 10965
+Characters in code: 11125
 The approximate time spent on writing and debugging the program is 3 hours, learning the syntax for 30 minutes.
