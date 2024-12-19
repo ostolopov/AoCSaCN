@@ -1,0 +1,6 @@
+Number of objects: 4
+
+Rectangle 73 58 104 81 red
+Circle 23 9 41 orange
+Triangle 42 87 3 27 29 40 red
+Rectangle 69 9 77 20 blue

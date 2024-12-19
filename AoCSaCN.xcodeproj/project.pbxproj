@@ -22,9 +22,22 @@
 		B80E03012D12B6A400503D81 /* AoCSaCN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AoCSaCN; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		B80E03102D149C9400503D81 /* Exceptions for "AoCSaCN" folder in "Compile Sources" phase from "AoCSaCN" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = B80E02FD2D12B6A400503D81 /* Sources */;
+			membershipExceptions = (
+				output.txt,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B80E03032D12B6A400503D81 /* AoCSaCN */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B80E03102D149C9400503D81 /* Exceptions for "AoCSaCN" folder in "Compile Sources" phase from "AoCSaCN" target */,
+			);
 			path = AoCSaCN;
 			sourceTree = "<group>";
 		};

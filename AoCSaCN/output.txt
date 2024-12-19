@@ -1,0 +1,83 @@
+Number of objects: 40
+
+Initial data:
+Rectangle 73, 58, 104, 81 red
+Circle 23, 9, 41 orange
+Triangle 42, 87, 3, 27, 29, 40 red
+Rectangle 69, 9, 77, 20 blue
+Circle 78, 16, 36 violet
+Rectangle 12, 67, 23, 101 green
+Rectangle 79, 21, 97, 44 orange
+Rectangle 85, 45, 114, 87 red
+Circle 1, 53, 9 yellow
+Rectangle 90, 24, 137, 55 red
+Rectangle 66, 49, 91, 51 indigo
+Rectangle 8, 28, 42, 77 red
+Rectangle 13, 65, 28, 79 indigo
+Circle 69, 15, 45 violet
+Circle 17, 95, 6 red
+Triangle 98, 88, 23, 5, 82, 52 green
+Triangle 37, 38, 44, 1, 97, 71 violet
+Triangle 58, 77, 97, 94, 4, 9 violet
+Triangle 75, 35, 98, 42, 99, 68 green
+Triangle 57, 94, 8, 95, 68, 13 violet
+Rectangle 62, 42, 78, 75 red
+Rectangle 21, 95, 34, 117 orange
+Triangle 31, 38, 57, 16, 90, 40 violet
+Rectangle 6, 72, 55, 118 indigo
+Circle 23, 89, 11 green
+Rectangle 23, 6, 37, 27 blue
+Circle 20, 44, 17 red
+Rectangle 94, 63, 133, 108 violet
+Rectangle 59, 23, 107, 59 violet
+Rectangle 39, 47, 75, 94 orange
+Rectangle 20, 44, 39, 80 indigo
+Circle 34, 42, 12 orange
+Circle 44, 95, 19 yellow
+Triangle 15, 91, 33, 69, 97, 53 blue
+Rectangle 10, 62, 22, 71 green
+Rectangle 25, 35, 44, 81 indigo
+Circle 39, 74, 32 blue
+Circle 72, 60, 45 red
+
+Sorted data:
+Circle violet Area: 6361.73
+Circle red Area: 6361.73
+Circle orange Area: 5281.02
+Circle violet Area: 4071.50
+Circle blue Area: 3216.99
+Rectangle indigo Area: 2254.00
+Triangle violet Area: 1979.00
+Rectangle violet Area: 1755.00
+Rectangle violet Area: 1728.00
+Rectangle orange Area: 1692.00
+Rectangle red Area: 1666.00
+Rectangle red Area: 1457.00
+Triangle violet Area: 1225.50
+Rectangle red Area: 1218.00
+Circle yellow Area: 1134.11
+Circle red Area: 907.92
+Rectangle indigo Area: 874.00
+Triangle violet Area: 867.00
+Rectangle red Area: 713.00
+Triangle green Area: 686.00
+Rectangle indigo Area: 684.00
+Triangle violet Area: 675.00
+Triangle blue Area: 560.00
+Rectangle red Area: 528.00
+Triangle red Area: 526.50
+Circle orange Area: 452.39
+Rectangle orange Area: 414.00
+Circle green Area: 380.13
+Rectangle green Area: 374.00
+Triangle green Area: 295.50
+Rectangle blue Area: 294.00
+Rectangle orange Area: 286.00
+Circle yellow Area: 254.47
+Rectangle indigo Area: 210.00
+Circle red Area: 113.10
+Rectangle green Area: 108.00
+Rectangle blue Area: 88.00
+Rectangle indigo Area: 50.00
+Number red Area: 0.00
+objects: red Area: 0.00
