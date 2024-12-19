@@ -1,4 +1,4 @@
-Number of objects: 40
+Number of objects: 50
 
 Initial data:
 Rectangle 73, 58, 104, 81 red
@@ -39,6 +39,16 @@ Rectangle 10, 62, 22, 71 green
 Rectangle 25, 35, 44, 81 indigo
 Circle 39, 74, 32 blue
 Circle 72, 60, 45 red
+Rectangle 89, 7, 105, 51 violet
+Triangle 55, 55, 6, 63, 2, 76 green
+Rectangle 31, 44, 70, 53 yellow
+Triangle 49, 3, 31, 31, 14, 19 indigo
+Rectangle 80, 29, 104, 34 yellow
+Rectangle 45, 17, 71, 18 yellow
+Triangle 97, 48, 4, 50, 50, 76 indigo
+Triangle 97, 4, 81, 48, 65, 78 violet
+Triangle 29, 53, 83, 47, 7, 73 green
+Triangle 76, 53, 24, 30, 66, 0 orange
 
 Sorted data:
 Circle violet Area: 6361.73
@@ -53,6 +63,8 @@ Rectangle violet Area: 1728.00
 Rectangle orange Area: 1692.00
 Rectangle red Area: 1666.00
 Rectangle red Area: 1457.00
+Triangle orange Area: 1263.00
+Triangle indigo Area: 1255.00
 Triangle violet Area: 1225.50
 Rectangle red Area: 1218.00
 Circle yellow Area: 1134.11
@@ -60,24 +72,32 @@ Circle red Area: 907.92
 Rectangle indigo Area: 874.00
 Triangle violet Area: 867.00
 Rectangle red Area: 713.00
+Rectangle violet Area: 704.00
 Triangle green Area: 686.00
 Rectangle indigo Area: 684.00
 Triangle violet Area: 675.00
 Triangle blue Area: 560.00
 Rectangle red Area: 528.00
 Triangle red Area: 526.50
+Triangle green Area: 474.00
 Circle orange Area: 452.39
 Rectangle orange Area: 414.00
 Circle green Area: 380.13
 Rectangle green Area: 374.00
+Rectangle yellow Area: 351.00
+Triangle indigo Area: 346.00
+Triangle green Area: 302.50
 Triangle green Area: 295.50
 Rectangle blue Area: 294.00
 Rectangle orange Area: 286.00
 Circle yellow Area: 254.47
 Rectangle indigo Area: 210.00
+Rectangle yellow Area: 120.00
 Circle red Area: 113.10
+Triangle violet Area: 112.00
 Rectangle green Area: 108.00
 Rectangle blue Area: 88.00
 Rectangle indigo Area: 50.00
+Rectangle yellow Area: 26.00
 Number red Area: 0.00
 objects: red Area: 0.00

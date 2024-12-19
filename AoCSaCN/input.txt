@@ -1,6 +1,52 @@
-Number of objects: 4
+Number of objects: 50
 
 Rectangle 73 58 104 81 red
 Circle 23 9 41 orange
 Triangle 42 87 3 27 29 40 red
 Rectangle 69 9 77 20 blue
+Circle 78 16 36 violet
+Rectangle 12 67 23 101 green
+Rectangle 79 21 97 44 orange
+Rectangle 85 45 114 87 red
+Circle 1 53 9 yellow
+Rectangle 90 24 137 55 red
+Rectangle 66 49 91 51 indigo
+Rectangle 8 28 42 77 red
+Rectangle 13 65 28 79 indigo
+Circle 69 15 45 violet
+Circle 17 95 6 red
+Triangle 98 88 23 5 82 52 green
+Triangle 37 38 44 1 97 71 violet
+Triangle 58 77 97 94 4 9 violet
+Triangle 75 35 98 42 99 68 green
+Triangle 57 94 8 95 68 13 violet
+Rectangle 62 42 78 75 red
+Rectangle 21 95 34 117 orange
+Triangle 31 38 57 16 90 40 violet
+Rectangle 6 72 55 118 indigo
+Circle 23 89 11 green
+Rectangle 23 6 37 27 blue
+Circle 20 44 17 red
+Rectangle 94 63 133 108 violet
+Rectangle 59 23 107 59 violet
+Rectangle 39 47 75 94 orange
+Rectangle 20 44 39 80 indigo
+Circle 34 42 12 orange
+Circle 44 95 19 yellow
+Triangle 15 91 33 69 97 53 blue
+Rectangle 10 62 22 71 green
+Rectangle 25 35 44 81 indigo
+Circle 39 74 32 blue
+Circle 72 60 45 red
+Rectangle 89 7 105 51 violet
+Triangle 55 55 6 63 2 76 green
+Rectangle 31 44 70 53 yellow
+Triangle 49 3 31 31 14 19 indigo
+Rectangle 80 29 104 34 yellow
+Rectangle 45 17 71 18 yellow
+Triangle 97 48 4 50 50 76 indigo
+Triangle 97 4 81 48 65 78 violet
+Triangle 29 53 83 47 7 73 green
+Triangle 76 53 24 30 66 0 orange
+Circle 85 16 49 indigo
+Circle 57 76 29 orange
