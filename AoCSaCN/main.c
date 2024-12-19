@@ -28,12 +28,12 @@ typedef union
     {
         int x1, y1, x2, y2, x3, y3;
     } triangle;
-} Object_params;
+} Object_parameters;
 
 typedef struct Object
 {
     char type[20];
-    Object_params params;
+    Object_parameters parameters;
     Color color;
     double area;
 } Object;
@@ -121,23 +121,23 @@ void calculate_area(Object *object)
 {
     if (strcmp(object->type, "Circle") == 0)
     {
-        int radius = object->params.circle.radius;
+        int radius = object->parameters.circle.radius;
         object->area = M_PI * radius * radius;
     }
     else if (strcmp(object->type, "Rectangle") == 0)
     {
-        int width = abs(object->params.rectangle.x2 - object->params.rectangle.x1);
-        int height = abs(object->params.rectangle.y2 - object->params.rectangle.y1);
+        int width = abs(object->parameters.rectangle.x2 - object->parameters.rectangle.x1);
+        int height = abs(object->parameters.rectangle.y2 - object->parameters.rectangle.y1);
         object->area = width * height;
     }
     else if (strcmp(object->type, "Triangle") == 0)
     {
-        int x1 = object->params.triangle.x1;
-        int y1 = object->params.triangle.y1;
-        int x2 = object->params.triangle.x2;
-        int y2 = object->params.triangle.y2;
-        int x3 = object->params.triangle.x3;
-        int y3 = object->params.triangle.y3;
+        int x1 = object->parameters.triangle.x1;
+        int y1 = object->parameters.triangle.y1;
+        int x2 = object->parameters.triangle.x2;
+        int y2 = object->parameters.triangle.y2;
+        int x3 = object->parameters.triangle.x3;
+        int y3 = object->parameters.triangle.y3;
         object->area = fabs((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2.0);
     }
     else
@@ -178,25 +178,25 @@ void read_objects(const char *filename, Object **objects, int count)
         fscanf(file, "%s", (*objects)[i].type);
         if (strcmp((*objects)[i].type, "Circle") == 0)
         {
-            fscanf(file, "%d %d %d", &(*objects)[i].params.circle.x, &(*objects)[i].params.circle.y, &(*objects)[i].params.circle.radius);
+            fscanf(file, "%d %d %d", &(*objects)[i].parameters.circle.x, &(*objects)[i].parameters.circle.y, &(*objects)[i].parameters.circle.radius);
         }
         else if (strcmp((*objects)[i].type, "Rectangle") == 0)
         {
             fscanf(file, "%d %d %d %d",
-                   &(*objects)[i].params.rectangle.x1,
-                   &(*objects)[i].params.rectangle.y1,
-                   &(*objects)[i].params.rectangle.x2,
-                   &(*objects)[i].params.rectangle.y2);
+                   &(*objects)[i].parameters.rectangle.x1,
+                   &(*objects)[i].parameters.rectangle.y1,
+                   &(*objects)[i].parameters.rectangle.x2,
+                   &(*objects)[i].parameters.rectangle.y2);
         }
         else if (strcmp((*objects)[i].type, "Triangle") == 0)
         {
             fscanf(file, "%d %d %d %d %d %d",
-                   &(*objects)[i].params.triangle.x1,
-                   &(*objects)[i].params.triangle.y1,
-                   &(*objects)[i].params.triangle.x2,
-                   &(*objects)[i].params.triangle.y2,
-                   &(*objects)[i].params.triangle.x3,
-                   &(*objects)[i].params.triangle.y3);
+                   &(*objects)[i].parameters.triangle.x1,
+                   &(*objects)[i].parameters.triangle.y1,
+                   &(*objects)[i].parameters.triangle.x2,
+                   &(*objects)[i].parameters.triangle.y2,
+                   &(*objects)[i].parameters.triangle.x3,
+                   &(*objects)[i].parameters.triangle.y3);
         }
         char color_name[10];
         fscanf(file, "%s", color_name);
@@ -229,31 +229,31 @@ void write_objects(const char *filename, Object *objects, int count, int flag)
         if (strcmp(objects[i].type, "Circle") == 0) {
             fprintf(file, "%s %d, %d, %d %s\n",
                     objects[i].type,
-                    objects[i].params.circle.x,
-                    objects[i].params.circle.y,
-                    objects[i].params.circle.radius,
+                    objects[i].parameters.circle.x,
+                    objects[i].parameters.circle.y,
+                    objects[i].parameters.circle.radius,
                     COLOR_NAMES[objects[i].color]);
         }
         else if (strcmp(objects[i].type, "Rectangle") == 0)
         {
             fprintf(file, "%s %d, %d, %d, %d %s\n",
                     objects[i].type,
-                    objects[i].params.rectangle.x1,
-                    objects[i].params.rectangle.y1,
-                    objects[i].params.rectangle.x2,
-                    objects[i].params.rectangle.y2,
+                    objects[i].parameters.rectangle.x1,
+                    objects[i].parameters.rectangle.y1,
+                    objects[i].parameters.rectangle.x2,
+                    objects[i].parameters.rectangle.y2,
                     COLOR_NAMES[objects[i].color]);
         }
         else if (strcmp(objects[i].type, "Triangle") == 0)
         {
             fprintf(file, "%s %d, %d, %d, %d, %d, %d %s\n",
                     objects[i].type,
-                    objects[i].params.triangle.x1,
-                    objects[i].params.triangle.y1,
-                    objects[i].params.triangle.x2,
-                    objects[i].params.triangle.y2,
-                    objects[i].params.triangle.x3,
-                    objects[i].params.triangle.y3,
+                    objects[i].parameters.triangle.x1,
+                    objects[i].parameters.triangle.y1,
+                    objects[i].parameters.triangle.x2,
+                    objects[i].parameters.triangle.y2,
+                    objects[i].parameters.triangle.x3,
+                    objects[i].parameters.triangle.y3,
                     COLOR_NAMES[objects[i].color]);
         }
     }
