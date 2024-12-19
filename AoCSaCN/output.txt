@@ -1,103 +1,203 @@
-Number of objects: 50
+Number of objects: 100
 
 Initial data:
-Rectangle 73, 58, 104, 81 red
-Circle 23, 9, 41 orange
-Triangle 42, 87, 3, 27, 29, 40 red
-Rectangle 69, 9, 77, 20 blue
-Circle 78, 16, 36 violet
-Rectangle 12, 67, 23, 101 green
-Rectangle 79, 21, 97, 44 orange
-Rectangle 85, 45, 114, 87 red
-Circle 1, 53, 9 yellow
-Rectangle 90, 24, 137, 55 red
-Rectangle 66, 49, 91, 51 indigo
-Rectangle 8, 28, 42, 77 red
-Rectangle 13, 65, 28, 79 indigo
+Circle 85, 16, 49 indigo
 Circle 69, 15, 45 violet
-Circle 17, 95, 6 red
-Triangle 98, 88, 23, 5, 82, 52 green
-Triangle 37, 38, 44, 1, 97, 71 violet
-Triangle 58, 77, 97, 94, 4, 9 violet
-Triangle 75, 35, 98, 42, 99, 68 green
-Triangle 57, 94, 8, 95, 68, 13 violet
-Rectangle 62, 42, 78, 75 red
-Rectangle 21, 95, 34, 117 orange
-Triangle 31, 38, 57, 16, 90, 40 violet
+Circle 72, 60, 45 red
+Circle 23, 9, 41 orange
+Circle 45, 20, 41 indigo
+Circle 78, 16, 36 violet
+Circle 25, 12, 34 blue
+Circle 39, 74, 32 blue
+Circle 57, 76, 29 orange
+Circle 91, 71, 29 blue
 Rectangle 6, 72, 55, 118 indigo
-Circle 23, 89, 11 green
-Rectangle 23, 6, 37, 27 blue
-Circle 20, 44, 17 red
+Triangle 57, 94, 8, 95, 68, 13 violet
+Circle 95, 3, 24 red
+Circle 24, 32, 24 blue
 Rectangle 94, 63, 133, 108 violet
 Rectangle 59, 23, 107, 59 violet
+Triangle 47, 15, 93, 79, 29, 64 yellow
 Rectangle 39, 47, 75, 94 orange
-Rectangle 20, 44, 39, 80 indigo
-Circle 34, 42, 12 orange
+Rectangle 8, 28, 42, 77 red
+Rectangle 97, 31, 136, 71 red
+Triangle 24, 1, 97, 61, 3, 24 red
+Rectangle 90, 24, 137, 55 red
+Circle 33, 91, 21 green
+Rectangle 49, 76, 96, 103 blue
+Triangle 1, 5, 80, 18, 74, 49 violet
+Triangle 76, 53, 24, 30, 66, 0 orange
+Triangle 97, 48, 4, 50, 50, 76 indigo
+Triangle 37, 38, 44, 1, 97, 71 violet
+Rectangle 85, 45, 114, 87 red
+Triangle 5, 29, 53, 89, 66, 56 yellow
+Triangle 99, 30, 21, 76, 24, 44 orange
+Rectangle 8, 50, 33, 96 red
 Circle 44, 95, 19 yellow
-Triangle 15, 91, 33, 69, 97, 53 blue
-Rectangle 10, 62, 22, 71 green
+Circle 14, 25, 19 green
+Rectangle 71, 10, 101, 44 red
+Circle 43, 19, 18 orange
+Circle 25, 41, 18 orange
+Rectangle 20, 50, 52, 81 indigo
+Rectangle 64, 76, 102, 102 yellow
+Rectangle 15, 47, 46, 78 green
+Triangle 15, 74, 45, 73, 20, 11 green
+Circle 20, 44, 17 red
+Rectangle 73, 81, 94, 123 indigo
 Rectangle 25, 35, 44, 81 indigo
-Circle 39, 74, 32 blue
-Circle 72, 60, 45 red
+Triangle 58, 77, 97, 94, 4, 9 violet
+Rectangle 35, 83, 84, 99 orange
+Rectangle 27, 36, 56, 62 orange
+Rectangle 95, 31, 138, 48 indigo
+Rectangle 73, 58, 104, 81 red
+Circle 11, 78, 15 orange
 Rectangle 89, 7, 105, 51 violet
-Triangle 55, 55, 6, 63, 2, 76 green
+Triangle 98, 88, 23, 5, 82, 52 green
+Rectangle 20, 44, 39, 80 indigo
+Triangle 31, 38, 57, 16, 90, 40 violet
+Rectangle 57, 13, 72, 57 indigo
+Rectangle 23, 50, 45, 80 orange
+Triangle 41, 10, 0, 99, 27, 71 yellow
+Triangle 15, 91, 33, 69, 97, 53 blue
+Rectangle 62, 42, 78, 75 red
+Rectangle 15, 92, 26, 140 violet
+Triangle 42, 87, 3, 27, 29, 40 red
+Triangle 44, 18, 18, 34, 25, 67 violet
+Rectangle 90, 66, 101, 110 blue
+Triangle 29, 53, 83, 47, 7, 73 green
+Triangle 71, 64, 60, 98, 51, 40 violet
+Rectangle 20, 84, 62, 95 indigo
+Circle 34, 42, 12 orange
+Rectangle 79, 21, 97, 44 orange
+Circle 23, 89, 11 green
+Circle 81, 15, 11 indigo
+Rectangle 12, 67, 23, 101 green
+Rectangle 98, 92, 119, 109 blue
 Rectangle 31, 44, 70, 53 yellow
 Triangle 49, 3, 31, 31, 14, 19 indigo
+Circle 85, 58, 10 violet
+Rectangle 25, 89, 34, 123 orange
+Triangle 55, 55, 6, 63, 2, 76 green
+Triangle 27, 50, 11, 63, 94, 33 orange
+Triangle 75, 35, 98, 42, 99, 68 green
+Rectangle 23, 6, 37, 27 blue
+Rectangle 21, 95, 34, 117 orange
+Triangle 34, 80, 79, 32, 74, 49 violet
+Circle 1, 53, 9 yellow
+Rectangle 13, 65, 28, 79 indigo
+Rectangle 34, 27, 75, 32 blue
+Triangle 18, 57, 85, 29, 15, 63 red
 Rectangle 80, 29, 104, 34 yellow
-Rectangle 45, 17, 71, 18 yellow
-Triangle 97, 48, 4, 50, 50, 76 indigo
+Circle 17, 95, 6 red
 Triangle 97, 4, 81, 48, 65, 78 violet
-Triangle 29, 53, 83, 47, 7, 73 green
-Triangle 76, 53, 24, 30, 66, 0 orange
+Rectangle 10, 62, 22, 71 green
+Rectangle 52, 39, 101, 41 red
+Rectangle 69, 9, 77, 20 blue
+Circle 60, 42, 4 orange
+Rectangle 66, 49, 91, 51 indigo
+Rectangle 20, 33, 29, 37 orange
+Rectangle 45, 17, 71, 18 yellow
+Circle 4, 58, 1 orange
+Circle 7, 38, 1 orange
 
 Sorted data:
+Circle indigo Area: 7542.96
 Circle violet Area: 6361.73
 Circle red Area: 6361.73
 Circle orange Area: 5281.02
+Circle indigo Area: 5281.02
 Circle violet Area: 4071.50
+Circle blue Area: 3631.68
 Circle blue Area: 3216.99
+Circle orange Area: 2642.08
+Circle blue Area: 2642.08
 Rectangle indigo Area: 2254.00
 Triangle violet Area: 1979.00
+Circle red Area: 1809.56
+Circle blue Area: 1809.56
 Rectangle violet Area: 1755.00
 Rectangle violet Area: 1728.00
+Triangle yellow Area: 1703.00
 Rectangle orange Area: 1692.00
 Rectangle red Area: 1666.00
+Rectangle red Area: 1560.00
+Triangle red Area: 1469.50
 Rectangle red Area: 1457.00
+Circle green Area: 1385.44
+Rectangle blue Area: 1269.00
+Triangle violet Area: 1263.50
 Triangle orange Area: 1263.00
 Triangle indigo Area: 1255.00
 Triangle violet Area: 1225.50
 Rectangle red Area: 1218.00
+Triangle yellow Area: 1182.00
+Triangle orange Area: 1179.00
+Rectangle red Area: 1150.00
 Circle yellow Area: 1134.11
+Circle green Area: 1134.11
+Rectangle red Area: 1020.00
+Circle orange Area: 1017.88
+Circle orange Area: 1017.88
+Rectangle indigo Area: 992.00
+Rectangle yellow Area: 988.00
+Rectangle green Area: 961.00
+Triangle green Area: 942.50
 Circle red Area: 907.92
+Rectangle indigo Area: 882.00
 Rectangle indigo Area: 874.00
 Triangle violet Area: 867.00
+Rectangle orange Area: 784.00
+Rectangle orange Area: 754.00
+Rectangle indigo Area: 731.00
 Rectangle red Area: 713.00
+Circle orange Area: 706.86
 Rectangle violet Area: 704.00
 Triangle green Area: 686.00
 Rectangle indigo Area: 684.00
 Triangle violet Area: 675.00
+Rectangle indigo Area: 660.00
+Rectangle orange Area: 660.00
+Triangle yellow Area: 627.50
 Triangle blue Area: 560.00
 Rectangle red Area: 528.00
+Rectangle violet Area: 528.00
 Triangle red Area: 526.50
+Triangle violet Area: 485.00
+Rectangle blue Area: 484.00
 Triangle green Area: 474.00
+Triangle violet Area: 472.00
+Rectangle indigo Area: 462.00
 Circle orange Area: 452.39
 Rectangle orange Area: 414.00
 Circle green Area: 380.13
+Circle indigo Area: 380.13
 Rectangle green Area: 374.00
+Rectangle blue Area: 357.00
 Rectangle yellow Area: 351.00
 Triangle indigo Area: 346.00
+Circle violet Area: 314.16
+Rectangle orange Area: 306.00
 Triangle green Area: 302.50
+Triangle orange Area: 299.50
 Triangle green Area: 295.50
 Rectangle blue Area: 294.00
 Rectangle orange Area: 286.00
+Triangle violet Area: 262.50
 Circle yellow Area: 254.47
 Rectangle indigo Area: 210.00
+Rectangle blue Area: 205.00
+Triangle red Area: 159.00
 Rectangle yellow Area: 120.00
 Circle red Area: 113.10
 Triangle violet Area: 112.00
 Rectangle green Area: 108.00
+Rectangle red Area: 98.00
 Rectangle blue Area: 88.00
+Circle orange Area: 50.27
 Rectangle indigo Area: 50.00
+Rectangle orange Area: 36.00
 Rectangle yellow Area: 26.00
+Circle orange Area: 3.14
+Circle orange Area: 3.14
 Number red Area: 0.00
 objects: red Area: 0.00

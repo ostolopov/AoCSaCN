@@ -3,6 +3,8 @@
 #include <string.h>
 #include <math.h>
 #include <limits.h>
+#include <time.h>
+#include <sys/stat.h>
 
 typedef enum {
     RED, ORANGE, YELLOW, GREEN, BLUE, INDIGO, VIOLET
@@ -11,7 +13,7 @@ typedef enum {
 const char *COLOR_NAMES[] = {"red", "orange", "yellow", "green", "blue", "indigo", "violet"};
 const char *input_file = "input.txt";
 const char *output_file = "output.txt";
-
+const char *stat_file = "stat.txt";
 typedef union
 {
     struct Сircle
@@ -40,12 +42,14 @@ int get_int(int *number, int min, int max);
 void calculate_area(Object *object);
 void bubble_sort(Object *objects, int count, int direction);
 void read_objects(const char *filename, Object **objects, int count);
-//void write_objects(const char *filename, Object *objects, int count);
 void write_objects(const char *filename, Object *objects, int count, int flag);
 void generate_file(const char *filename, int count);
+void print_statistics(const char *filename, clock_t start, clock_t end, const char *program_filename);
 
 int main(void)
 {
+    clock_t start_time = clock();
+
     int check = 0;
     int is_sorted = 0;
     printf("Enter the number of shapes to generate: ");
@@ -69,9 +73,12 @@ int main(void)
     write_objects(output_file, objects, count, is_sorted);
     bubble_sort(objects, count, direction);
     is_sorted = 1;
-    //write_objects(output_file, objects, count);
     write_objects(output_file, objects, count, is_sorted);
     free(objects);
+
+    clock_t end_time = clock();
+    print_statistics(stat_file, start_time, end_time, __FILE__);
+
     return 0;
 }
 
@@ -154,7 +161,6 @@ void bubble_sort(Object *objects, int count, int direction)
             }
         }
     }
-    //printf("\n\nwergojierogerwopfg   %d\n\n", count);
 }
 
 void read_objects(const char *filename, Object **objects, int count)
@@ -166,7 +172,6 @@ void read_objects(const char *filename, Object **objects, int count)
         return;
     }
 
-    
     *objects = malloc(count * sizeof(Object));
     for (int i = 0; i < count; i++)
     {
@@ -209,7 +214,6 @@ void read_objects(const char *filename, Object **objects, int count)
     fclose(file);
 }
 
-//void write_objects(const char *filename, Object *objects, int count)
 void write_objects(const char *filename, Object *objects, int count, int flag)
 {
     FILE *file = fopen(filename, "w");
@@ -260,8 +264,8 @@ void write_objects(const char *filename, Object *objects, int count, int flag)
         {
             fprintf(file, "%s %s Area: %.2f\n", objects[i].type, COLOR_NAMES[objects[i].color], objects[i].area);
         }
-        fclose(file);
     }
+    fclose(file);
 }
 
 void generate_file(const char *filename, int count)
@@ -307,5 +311,43 @@ void generate_file(const char *filename, int count)
         }
     }
 
+    fclose(file);
+}
+
+void print_statistics(const char *filename, clock_t start, clock_t end, const char *program_filename)
+{
+    FILE *stat_file = fopen(filename, "w");
+    if (!stat_file)
+    {
+        perror("Failed to open input file");
+        return;
+    }
+    struct stat st;
+    stat(program_filename, &st);
+    fprintf(stat_file, "Execution time: %ld ms\n", (end - start) * 1000 / CLOCKS_PER_SEC);
+    fprintf(stat_file, "Program size: %lld bytes\n", st.st_size);
+    FILE *file = fopen(program_filename, "r");
+    if (file)
+    {
+        int lines = 0, characters = 0;
+        char c;
+        while ((c = fgetc(file)) != EOF)
+        {
+            characters++;
+            if (c == '\n')
+            {
+                lines++;
+            }
+        }
+        fclose(file);
+        fprintf(stat_file, "Lines of code: %d\n", lines);
+        fprintf(stat_file, "Characters in code: %d\n", characters);
+        fprintf(stat_file, "The approximate time spent on writing and debugging the program is 3 hours, learning the syntax for 30 minutes.\n");
+        
+    }
+    else
+    {
+        fprintf(stat_file, "Failed to open program file for statistics.\n");
+    }
     fclose(file);
 }
